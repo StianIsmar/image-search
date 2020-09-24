@@ -2,23 +2,13 @@
 // action types. Could have in a separate file
 
 const UPDATE_IMG_URL = "UPDATE_IMG_URL";
+const LOADING_IMAGE = "LOADING_IMAGE"
+const LOADED_IMAGE = "LOADED_IMAGE"
 
 // Only this one here is running
 export const updateUrl1 = () => {
   return { type: UPDATE_IMG_URL};
 };
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* 
